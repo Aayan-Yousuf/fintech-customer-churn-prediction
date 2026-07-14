@@ -1,0 +1,35 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Local environment variables and secrets
+.env
+.env.*
+
+# Data files are intentionally kept out of Git
+# Keep only folder placeholders such as .gitkeep
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+# Generated charts, reports, and model files
+reports/figures/*
+!reports/figures/.gitkeep
+/models/
+*.pkl
+*.joblib
+*.onnx
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
